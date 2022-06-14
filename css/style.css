@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin:0;
+}
+.Templeat{
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../img/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+
+}
+.nav{
+    width:1200px;
+    height:75px;
+    margin:auto;
+   
+}
+.logo{
+    width:200px;
+    float:left;
+    height:100%;
+    
+}
+.icon{
+    color: #ff7200;
+    padding-top:10px;
+    padding-left:20px;
+    font-size:35px;
+    font-family:arial;
+    float:left;
+}
+
+.menu{
+    float:left;
+    width:400px;
+    height:70px;
+
+}
+.menu-ber {
+    float:left;
+    display: flex;
+    list-style:none;
+    padding-top:20px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.menu-ber li a{
+    text-decoration:none;
+    color:#fff;
+    font-size:17px;
+    padding-left:60px;
+    font-family:Arial;
+}
+
+.menu-ber li a{
+    font-weight:bolder;
+    transition:0.4s ease-in-out;
+}
+.menu-ber li a:hover{
+    color:#ff7200;
+
+}
